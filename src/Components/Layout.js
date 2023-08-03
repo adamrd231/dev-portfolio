@@ -20,5 +20,17 @@ const ComponentLayout = styled.div`
 
 `;
 
-export { MainLayout, ComponentLayout };
+const Row = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem 0;
+
+  @media (max-width: 667px) {
+    flex-direction: column;
+    align-items: center;
+  }
+`;
+
+export { MainLayout, ComponentLayout, Row };
 

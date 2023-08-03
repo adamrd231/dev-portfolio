@@ -35,7 +35,7 @@ function Footer() {
 
   const Footnote = styled.div`
     font-size: 0.75rem;
-    margin: 0.25rem 0;
+    margin: 0.25rem 0;i
   `;
 
   return (

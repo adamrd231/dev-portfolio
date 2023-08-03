@@ -6,7 +6,6 @@ import Footer from './Views/Footer';
 function App() {
   return (
     <MainLayout className="App">
-      {/* <Menu /> */}
       <Home />
       <Footer />
     </MainLayout>
