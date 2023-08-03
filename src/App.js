@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import styled from '@emotion/styled'
+import { MainLayout } from './Components/Layout';
+import { Title, Subtitle, Paragraph} from './Components/Typography';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MainLayout className="App">
+      <Title>Adam Reed.</Title>
+      <Subtitle>iOS software engineer living and working out of northern Michigan.</Subtitle>
+      <Paragraph>
+        Creative problem solver with unique approaches to developing business solutions. Specialized in native iOS, I have launched 8 projects to the App Store. I am a self-starter who is passionate about learning new technologies and building products that make a difference, backgorund in UI/UX and brand developemnt.
+      </Paragraph>
+    </MainLayout>
   );
 }
 
