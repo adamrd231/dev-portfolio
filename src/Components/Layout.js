@@ -1,12 +1,24 @@
 import styled from '@emotion/styled'
 
-export const MainLayout = styled.div`
+const MainLayout = styled.div`
   display: flex;
   flex-direction: column;
   align-items: left;
-  justify-content: center;
+  justify-content: top;
   min-height: 100vh;
+  width: 100%;
   background-color: #282c34;
-  padding: 3rem;
+  box-sizing: border-box;
 `;
+
+const ComponentLayout = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin: auto;
+
+
+`;
+
+export { MainLayout, ComponentLayout };
 
