@@ -6,13 +6,18 @@ function Footer() {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: left;
+    align-items: center;
     width: 100%;
     background-color: #ededed;
     color: #222;
     min-height: 10rem;
-    padding: 3rem 2rem;
     box-sizing: border-box;
+    padding: 1.5rem 0 3rem 0;
+  `;
+
+  const FooterTextContainer = styled.div`
+    width: 85%;
+    
   `;
 
   const FooterColumn = styled.div`
@@ -40,21 +45,26 @@ function Footer() {
 
   return (
     <FooterContainer>
-      <FooterColumn>
-        <FooterItem>Contact</FooterItem>
-        <Paragraph>231.445.1463</Paragraph>
-        <Paragraph>adam@rdconcepts.design</Paragraph>
-      </FooterColumn>
-      <FooterColumn>
-        <FooterItem>About this site</FooterItem>
-        <Paragraph>
-          Thank you for visiting my portfolio website and viewing my work.
-          I built this website using React.js to develop the frontend portfolio and is deployed with firebase for easy hosting and ability to update with a GitHub Repository.
-          iOS Designer & Developer, background in brand design and development.
-          Located in Northern Michigan
-        </Paragraph>
-        <Footnote>Updated Aug, 2023</Footnote>
-      </FooterColumn>
+      <FooterTextContainer>
+        <FooterColumn>
+          <FooterItem>Contact</FooterItem>
+          <Paragraph>231.445.1463</Paragraph>
+          <Paragraph>adam@rdconcepts.design</Paragraph>
+        </FooterColumn>
+        <FooterColumn>
+          <FooterItem>About this site</FooterItem>
+          <Paragraph>
+            Thank you for visiting, currently living and working out of Northern Michigan. Looking for remote and hybrid opportunities in native swift and swiftUI. 
+            
+           
+          </Paragraph>
+          <Paragraph>
+            This site was built with React.js and Emotion.js and Javascript, hosted with Github pages
+          </Paragraph>
+          <Footnote>Updated Aug, 2023</Footnote>
+        </FooterColumn>
+      </FooterTextContainer>
+      
 
       
     </FooterContainer>
