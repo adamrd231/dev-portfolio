@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/dev-portfolio/static/css/main.e6c13ad2.css",
-    "main.js": "/dev-portfolio/static/js/main.813d7350.js",
+    "main.js": "/dev-portfolio/static/js/main.ad86760f.js",
     "static/js/787.1a5515bf.chunk.js": "/dev-portfolio/static/js/787.1a5515bf.chunk.js",
     "static/media/xcode.png": "/dev-portfolio/static/media/xcode.265f7e64da9b4b057357.png",
     "static/media/react.png": "/dev-portfolio/static/media/react.4c96af7ad4bd04064997.png",
     "static/media/swiftIcon.png": "/dev-portfolio/static/media/swiftIcon.7604f84b417882c07aed.png",
     "index.html": "/dev-portfolio/index.html",
     "main.e6c13ad2.css.map": "/dev-portfolio/static/css/main.e6c13ad2.css.map",
-    "main.813d7350.js.map": "/dev-portfolio/static/js/main.813d7350.js.map",
+    "main.ad86760f.js.map": "/dev-portfolio/static/js/main.ad86760f.js.map",
     "787.1a5515bf.chunk.js.map": "/dev-portfolio/static/js/787.1a5515bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.813d7350.js"
+    "static/js/main.ad86760f.js"
   ]
 }
