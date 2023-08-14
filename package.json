@@ -1,7 +1,7 @@
 {
   "name": "adam-portfolio",
   "version": "0.1.0",
-  "homepage": "https://adamrd231.github.io/dev-portfolio",
+  "homepage": "https://rdconcepts.design",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
