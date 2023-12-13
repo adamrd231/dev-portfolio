@@ -26,10 +26,11 @@ const TextContainer = styled.div`
 
   return (
     <Container>
-      <Image src={image} />
-      <TextContainer>{text}{props.link && (
-        <Link href={link} target="_blank">{linkName}</Link>
-      )} </TextContainer>
+      <Link href={link} target="_blank">
+        <Image src={image} />
+      </Link>
+      
+      <TextContainer>{text}</TextContainer>
       
       
     </Container>
