@@ -7,8 +7,8 @@ const MainLayout = styled.div`
   justify-content: top;
   min-height: 100vh;
   width: 100%;
-  background-color: #282c34;
   box-sizing: border-box;
+  background: #333;
 `;
 
 const ComponentLayout = styled.div`
@@ -16,7 +16,6 @@ const ComponentLayout = styled.div`
   flex-direction: column;
   width: 85%;
   margin: auto;
-
 
 `;
 

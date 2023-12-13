@@ -17,7 +17,6 @@ function Footer() {
 
   const FooterTextContainer = styled.div`
     width: 85%;
-    
   `;
 
   const FooterColumn = styled.div`

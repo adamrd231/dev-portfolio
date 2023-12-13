@@ -5,15 +5,20 @@ function Menu() {
   const MenuContainer = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    
-    width: 100%;
-    background-color: #000;
+    font-weight: 600;
+    font-size: 12px;
     color: white;
     min-height: 1rem;
     padding: 1rem;
     box-sizing: border-box;
+    gap: 1rem;
+    cursor: pointer;
+    background: #222222;
+
+
+    
   `;
 
   const MenuItem = styled.div`
@@ -23,8 +28,7 @@ function Menu() {
   return (
     <MenuContainer>
       <MenuItem>Home</MenuItem>
-      <MenuItem>Links</MenuItem>
-      <MenuItem>Menu</MenuItem>
+      <MenuItem>iOS App Privacy Policy</MenuItem>
     </MenuContainer>
   );
 }
