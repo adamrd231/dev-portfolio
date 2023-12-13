@@ -8,15 +8,6 @@ const MainLayout = styled.div`
   min-height: 100vh;
   width: 100%;
   box-sizing: border-box;
-  background: #333;
-`;
-
-const ComponentLayout = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 85%;
-  margin: auto;
-
 `;
 
 const Row = styled.div`
@@ -31,5 +22,5 @@ const Row = styled.div`
   }
 `;
 
-export { MainLayout, ComponentLayout, Row };
+export { MainLayout, Row };
 

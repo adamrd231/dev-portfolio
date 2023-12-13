@@ -13,6 +13,8 @@ function Footer() {
     min-height: 10rem;
     box-sizing: border-box;
     padding: 1.5rem 0 3rem 0;
+    font-size: 12px;
+
   `;
 
   const FooterTextContainer = styled.div`

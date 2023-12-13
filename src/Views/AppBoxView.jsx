@@ -8,10 +8,10 @@ const Container = styled.div`
 `;
 
 const Image = styled.img`
-  height: 50vh;
+  height: 40vh;
   width: 100%;
-  posistion: relative;
   object-fit: cover;
+  overflow: clip;
 `;
 
 const Title = styled.h2`
