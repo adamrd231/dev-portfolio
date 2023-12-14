@@ -12,22 +12,35 @@ function Footer() {
     color: #222;
     min-height: 10rem;
     box-sizing: border-box;
-    padding: 1.5rem 0 3rem 0;
+    padding: 0.75rem 0 1.5rem 0;
     font-size: 12px;
-
   `;
 
   const FooterTextContainer = styled.div`
-    width: 85%;
+    width: 79%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
   `;
 
   const FooterColumn = styled.div`
     display: flex;
     flex-direction: column;
+    font-size: 11px;
+    padding-bottom: 0.25rem;
+    border-bottom: 1px solid #d1d1d1;
+  `;
+
+  const FooterRow = styled.div`
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem
   `;
 
   const FooterItem = styled.div`
-    font-size: 1rem;
+    font-size: 11px;
     font-weight: 600;
     margin: 1rem 0 0.25rem 0;
     text-transform: uppercase;
@@ -40,8 +53,9 @@ function Footer() {
   `;
 
   const Footnote = styled.div`
-    font-size: 0.75rem;
+    font-size: 11px;
     margin: 0.25rem 0;i
+    font-weight: 700;
   `;
 
   return (
@@ -55,15 +69,21 @@ function Footer() {
         <FooterColumn>
           <FooterItem>About this site</FooterItem>
           <Paragraph>
-            Thank you for visiting, currently living and working out of Northern Michigan. Looking for remote and hybrid opportunities in native swift and swiftUI. 
-            
-           
+            Thank you for visiting my website. I am currently living and working out of Northern Michigan. Opportunity to bring large impact as a front-end developer, being able to bring ideas through sketching to deployment. With a speciality in native development using swift and swiftUI, I am also an experienced designer.  
           </Paragraph>
           <Paragraph>
-            This site was built with React.js and Emotion.js and Javascript, hosted with Github pages
+            
           </Paragraph>
-          <Footnote>Updated Aug, 2023</Footnote>
+     
         </FooterColumn>
+        <FooterRow>
+          <Paragraph>rdConcepts design & development</Paragraph>
+          <FooterRow>
+            <Paragraph>Privacy Policy</Paragraph>
+            <Footnote>Updated Dec, 2023</Footnote>
+          </FooterRow>
+        </FooterRow>
+         
       </FooterTextContainer>
       
 
